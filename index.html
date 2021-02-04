@@ -25,10 +25,43 @@ Developed by: Aidan/Aids
 	p1{
 		color: blue;
 	}
+
+	p3 {
+		color:white;
+		margin: 10px 10px;
+		font-weight: bold;
+	}
+
+.button{
+    border:none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px 5px;
+    cursor: pointer;
+
+}
+.button {background-color: #4CAF50;} /* GREEREBN */
+
+.button:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
 </style>
+
+<script>
+
+ function myFunction () {
+	document.getElementById("sold").style.color = "red";
+}
+</script>
 <body>
 
-<h1>THIS IS THE OFFICIAL POOPEP WEBSITE</h1>
+<h1>THIS IS THE OFFICIAL PoopPep WEBSITE</h1>
 
 <p1>PoopPep is officially sponsered by De Brotherhood</p1>
 
@@ -36,6 +69,10 @@ Developed by: Aidan/Aids
 
 <p>we are not liable for any damges that are caused to your body while drinking PoopPep</p>
 
+<p3 id="sold">Sold Out!</p3>
+
+
+<button onclick="myFunction()" class="button button1">BUY IT NOW</button>
 
 </body>
 </html>
